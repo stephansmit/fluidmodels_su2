@@ -1,0 +1,3 @@
+[submodule "SU2"]
+	path = SU2
+	url = git@github.com:su2code/SU2.git
