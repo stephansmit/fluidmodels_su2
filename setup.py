@@ -17,8 +17,8 @@ su2models_module = Extension('_SU2Models',
 
 setup (name = 'example',
        version = '0.1',
-       author      = "SWIG Docs",
-       description = """Simple swig example from docs""",
+       author      = "S.H.H.J Smit",
+       description = """Thermophysical models of SU2""",
        ext_modules = [su2models_module],
        py_modules = ["SU2Models"],
        )
