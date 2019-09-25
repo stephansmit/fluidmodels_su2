@@ -1,8 +1,7 @@
-#!/usr/bin/env python
 import os
 from distutils.core import setup, Extension
-os.environ['CC'] ='g++'
 
+os.environ['CC'] ='g++'
 su2models_module = Extension('_SU2Models',
                            sources= [
              'SU2/SU2_CFD/src/fluid_model.cpp',
@@ -14,7 +13,6 @@ su2models_module = Extension('_SU2Models',
              'SU2/Common/src/mpi_structure.cpp',
 	     'su2_models_wrap.cxx']
                            )
-
 setup (name = 'example',
        version = '0.1',
        author      = "S.H.H.J Smit",
