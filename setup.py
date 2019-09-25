@@ -3,7 +3,7 @@ import os
 from distutils.core import setup, Extension
 os.environ['CC'] ='g++'
 
-fluidmodels_module = Extension('_SU2Models',
+su2models_module = Extension('_SU2Models',
                            sources= [
              'SU2/SU2_CFD/src/fluid_model.cpp',
              'SU2/SU2_CFD/src/fluid_model_pig.cpp',
@@ -19,6 +19,6 @@ setup (name = 'example',
        version = '0.1',
        author      = "SWIG Docs",
        description = """Simple swig example from docs""",
-       ext_modules = [fluidmodels_module],
+       ext_modules = [su2models_module],
        py_modules = ["SU2Models"],
        )
