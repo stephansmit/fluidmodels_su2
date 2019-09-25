@@ -1,6 +1,6 @@
 rm *.o
 rm *_wrap*
-rm example.py
+rm SU2Models.py
 rm *.so
 rm -rf __pycache__
-rm -rf build
+rm -rf buil
