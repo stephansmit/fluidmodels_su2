@@ -9,6 +9,7 @@ sudo apt-get install python3-dev swig
 
 ## Creation of the python module
 ~~~~
+swig -c++ -python su2_models.i
 python3 setup.py build_ext --inplace
 ~~~~
 
