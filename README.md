@@ -9,7 +9,7 @@ sudo apt-get install python3-dev swig
 
 ## Creation of the python module
 ~~~~
-./install.sh
+python3 setup.py build_ext --inplace
 ~~~~
 
 ## Usage

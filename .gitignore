@@ -3,3 +3,4 @@
 *.so
 *.cxx
 __pycache__/*
+build/*
